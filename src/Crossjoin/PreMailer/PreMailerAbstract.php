@@ -378,7 +378,9 @@ abstract class PreMailerAbstract
                             $concat = ";";
                         }
 
-                        $element->setAttribute('style', $styleValue);
+                        if ($styleValue !== "") {
+                            $element->setAttribute('style', $styleValue);
+                        }
                     }
                 }
             }
