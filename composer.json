@@ -15,6 +15,12 @@
         "issues": "https://github.com/crossjoin/PreMailer/issues",
         "source": "https://github.com/crossjoin/PreMailer"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nuts/crossjoin_css"
+        }
+    ],
     "require": {
         "php" : ">=5.4.0",
         "ext-dom" : "*",
