@@ -101,3 +101,5 @@ $text = $preMailer->getText();
 - Add charset auto-detection (extracted from the HTML document)
 - Ability to influence the text version format
 - Optimize inline styles (remove declarations that are overwritten within the same inline style)
+
+nuts
